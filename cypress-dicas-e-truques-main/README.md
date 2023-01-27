@@ -187,4 +187,13 @@ run-specs
 running cypress/integration/a-spec.js
 Started video recording: /Users/gleb/cypress/videos/p259n.mp4
 ...
+running cypress/integration/b-spec.js
+Started video recording: /Users/gleb/cypress/videos/62er1.mp4
 
+```
+
+Se você precisa de variáveis de ambiente (como urls, senhas), pode injetá-las facilmente usando [as-a](https://github.com/bahmutov/as-a "as-a")).
+
+```sh
+as-a cy run-specs
+```
